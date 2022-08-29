@@ -1,44 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<link>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css"/>
-    <title>Noelie Mode E-Shop</title>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!--Debut Creation de la navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <div class="row">
-                <a class="navbar-brand" href="#">Noelie Mode E-Shop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-warning">Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+    />
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Noelie Mode E-Shop</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="color: #ffb358"
+          >Noelie Mode creation</a
+        >
+        <div class="navbar-text">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+        <button type="button" class="btn btn-navbar">Login</button>
+      </div>
     </nav>
 
-    <!-- Fin creation de la navbar -->
-    
-</body>
+    <!-- section 1 Acuueil -->
+    <section>
+      <div class="container mt-lg-5">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-12 pt-5">
+            <div class="about-text">
+              <h1>
+                Imposez votre <br /><span class="elegance text-nowrap"
+                  >Elégance</span
+                ><br />
+                Sophisticité
+              </h1>
+              <p class="pt-5 pb-5" style="color: #4f4f4f">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+                nemo quia cumque odio, consequatur? Quisquam a beatae
+                dignissimos.
+              </p>
+            </div>
+            <div class="about-button">
+              <button class="btn cta fw-normal col-7 py-2">Find our new products</button>
+            </div>
+          </div>
+          <div class="about-img col-lg-7 col-md-12 col-12">
+            <img
+              src="./image/FendiFW22.jpeg"
+              alt=""
+              class="img-fluid rounded-3"
+            />
+            <div class="more">
+              <img src="./image/explore.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          </div>
+          <div class="row mx-auto">
+            <button class="btn now col-2 ms-auto shop"><a href="#">Shop now</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header mb-4">
+              <h2 class="text-category fw-medium">Lorem ipsum dolor</h2>
+            </div>
+          </div>
+        </div>
+   
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card-one text-center pb-2 rounded-3">
+            <div class="card-body">
+              <img src="./image/emojione-monotone_dress.png" class="img-fluid my-3 " alt>
+              <p class="fw-semibold">
+                Classic dress
+              </p>
+            </div>
+          </div>
+        </div>
+          
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card-two text-center pb-2 rounded-3">
+            <div class="card-body">
+              <img src="./image/casual.png" class="img-fluid my-3" alt>
+              <p class="fw-semibold">
+                Casual dress
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card-three text-center pb-2 rounded-3">
+            <div class="card-body">
+              <img src="./image/creative.png" class="img-fluid my-3" alt>
+              <p class="fw-semibold">
+                Creative wear
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card-four text-center pb-2 rounded-3">
+            <div class="card-body">
+              <img src="./image/bag.png" class="img-fluid my-3" alt>
+              <p class="fw-semibold">
+                Bags
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- section fits -->
+
+    <!-- section avis -->
+    <section></section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
