@@ -16,41 +16,59 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" 
     crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link href="./CSS/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./CSS/style2.css">
-    <title>Shop</title>
+    <link href="./CSS/style2.css" rel="stylesheet" />
+    <title>Dress</title>
   </head>
   <body>
-    <div class="card text-center"><h1>Shop</h2></div>
-    <div class="card text-center bags">
+    <!-- Debut Navbar -->
+      <?php
+        require './php/navbar.php'
+      ?>
+    <!-- Debut Navbar -->
+
+    <div class="card text-center dress">
+        <div class="card text-center shop-card"><h1>Dress</h2></div>
       <div class="card-header">
+        
         <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="index.php">
               <i class="fas fa-home text-dark" style="font-size:25px;"></i>
-              <img src="./image/Noelie Mode Creation_resize.png" alt="">
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active" href="#"><span>Bags</span></a>
+            <a class="nav-link active" href=""><span class="display-6">Dress </span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="dress.html"><span class="display-6">Dress </span></a>
+          <li class="nav-item ">
+            <a class="nav-link " href="bags.php"><span class="display-6">Bags</span></a>
           </li>
+          
         </ul>
       </div>
 
       <div class="container p-5">
             <div class="row">
-              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
+              <div class="container col-12 col-md-12 col-lg-4 mb-4 image">
+                <!-- debut popup -->
                 <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
+                  <button class="fas fa-heart" id="btnPopup"></button> 
                 </div>
+                <div id="overlay" class="overlay ">
+                    <div class="carte text-center">
+                        <div id="popup" class="popup text-center">
+                            <span id="btnClose" class="btnClose">&times;</span>
+                            <h3 class="pt-4">My wish List</h3>
+                            <p class="py-2">Log in to manage your lists</p>
+                            <button class="col-5 mb-4 p-3 login">Login</button><br>
+                            <button class="create col-5 p-3">Create an account</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin popup -->
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags1.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -64,7 +82,7 @@
                 <div class="card text-light text-center">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags2.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -78,7 +96,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags3.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -94,7 +112,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags4.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -108,7 +126,7 @@
                 <div class="card text-light text-center">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags5.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -122,7 +140,51 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags6.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
+                <div class="multi-button">
+                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
+                  <button class="fas fa-heart"></button>
+                </div>
+                <div class="card text-light text-center ">
+                    <div class="card-body">
+                      <div class="img-area">
+                        <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                </div>
+              </div>
+  
+              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
+                <div class="multi-button">
+                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
+                <button class="fas fa-heart"></button>
+                </div>
+                <div class="card text-light text-center">
+                    <div class="card-body">
+                      <div class="img-area">
+                        <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                </div>
+              </div>
+  
+              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
+                <div class="multi-button">
+                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
+                <button class="fas fa-heart"></button>
+                </div>
+                <div class="card text-light text-center ">
+                    <div class="card-body">
+                      <div class="img-area">
+                        <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -138,7 +200,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags1.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -152,7 +214,7 @@
                 <div class="card text-light text-center">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags2.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -166,7 +228,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags3.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -182,7 +244,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags4.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -196,7 +258,7 @@
                 <div class="card text-light text-center">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags5.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -210,7 +272,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags6.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -226,7 +288,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags1.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -240,51 +302,7 @@
                 <div class="card text-light text-center">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags2.png" alt="" class="img-fluid">
-                      </div>
-                    </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
-                <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
-                </div>
-                <div class="card text-light text-center ">
-                    <div class="card-body">
-                      <div class="img-area">
-                        <img src="./image/bags/bags3.png" alt="" class="img-fluid">
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
-                <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
-                </div>
-                <div class="card text-light text-center ">
-                    <div class="card-body">
-                      <div class="img-area">
-                        <img src="./image/bags/bags4.png" alt="" class="img-fluid">
-                      </div>
-                    </div>
-                </div>
-              </div>
-  
-              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
-                <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
-                </div>
-                <div class="card text-light text-center">
-                    <div class="card-body">
-                      <div class="img-area">
-                        <img src="./image/bags/bags5.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -298,7 +316,7 @@
                 <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
-                        <img src="./image/bags/bags6.png" alt="" class="img-fluid">
+                        <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
                 </div>
@@ -306,7 +324,7 @@
             </div>
       </div>
           <div class="row justify-content-center mb-4 pb-3">
-            <a class="btn see-more col-2">Load more bags</a>
+            <a class="btn see-more col-2">Load more dress </a>
           </div>
           <script>
             $(document).ready(function(){
@@ -324,152 +342,9 @@
     </div>
 
 <!-- section footer-->
- <!-- Footer -->
- <footer class="text-center text-lg-start text-light foot">
-  <!-- Section: Form -->
-<section class="">
-      <!--Grid column-->
-      <div class="col-auto">
-        <p class="pt-2">
-          <h4 class=" text-center ">Want style ideas and treats ? </h4>
-        </p>
-      </div>
-      <!--Grid column-->
-    <form action="">
-      <!--Grid row-->
-      <div class="row d-flex justify-content-center">
-        <!--Grid column-->
-        <div class="col-md-5 col-12">
-          <!-- Email input -->
-          <div class="form-outline mb-4">
-            <input type="email" id="email" class="form-control rounded-4" placeholder="Enter your email adress *"/>
-          </div>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-auto">
-          <!-- Submit button -->
-          <button type="submit" class="btn btn-outline-light mb-4">
-            Subscribe
-          </button>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </form>
-  </section>
-  <!-- Section: Form -->
-
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="fw-lighter mb-4">Quick-links</h6>
-          <p>
-            <a href="shop.html" class="text-reset">Shop</a>
-          </p>
-          <p>
-            <a href="shop.html" target="_blank" class="text-reset">Categories</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Login</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="fw-lighter mb-4">Home</h6>
-          <p>
-            <a href="#" class="text-reset">Home</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Login</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">About</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="fw-lighter mb-4">Shop</h6>
-          <p>
-            <a href="shop.html" class="text-reset">Shop</a>
-          </p>
-          <p>
-            <a href="shop.html" target="_blank" class="text-reset">Categories</a>
-          </p>
-        </div>
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="fw-lighter mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> Lome, NY 10012, Togo</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            noeliem@gmail.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 228 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 228 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
-  <!-- Section: Social media -->
-  <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom "
-  >
-    <!-- Left -->
-    <div class="ms-5 d-none d-lg-block">
-      <span class="">Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div class="social-links">
-      <a href="https://facebook.com" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://instagram.com" target="_blank">
-        <i class="fab fab fa-instagram"></i>
-      </a>
-      <a href="https://tiktok.com" target="_blank">
-        <i class="fab fab fa-tiktok"></i>
-      </a>
-      <a href="https://wa.me/+22892951868" target="_blank">
-        <i class="fab fab fa-whatsapp"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
-  <!-- Copyright -->
-  <div class="d-flex justify-content-center mt-sm-3">
-    <div class="row col-2">
-      <img class="img-fluid" src="./image/Noelie Mode Creation.png" alt="">
-    </div>
-  </div>
-  <div
-    class="text-center p-4"
-  >
-    © 2022 Copyright - by
-    <a class="text-muted fw-lighter" href="https://mdbootstrap.com/"></a>
-      Liorah-Es digital Agency</a
-    >
-  </div>
-  <!-- Copyright -->
-</footer>
+  <?php
+  require './php/footer.php'?>
+  
+<script src="./js/script.js"></script>
   </body>
 </html>

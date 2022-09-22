@@ -52,6 +52,42 @@ body {
   font-weight: bold;
 }
 
+/* coeur popup */
+
+.overlay{
+  position: fixed;
+  left:0px ;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width:100%;
+  height: 100%;
+  display: none;
+  z-index: 1000;
+}
+.carte{
+  width:600px;
+  height:400px;
+  background-color:#F1F1F1 ;
+  border-radius: 15px;
+  transform: translate(30%, 50%);
+}
+.login{
+  background-color: #FFB358;
+  border-radius: 50px;
+  border-style: none;
+}
+.create{
+  background-color: transparent;
+  border-radius: 50px;
+  border-style:none;
+  border:solid 2px;
+}
+.btnClose{
+  cursor: pointer;
+  color: #FFB358;
+  margin-left: 500px;
+}
+/* fin popup */
 /* Debut modification */
 .image {
   /* box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.1); */
