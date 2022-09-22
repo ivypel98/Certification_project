@@ -1,58 +1,57 @@
-.social-media{
-    display: flex;
-    flex-direction: column;
-}
-h3{
-    font-size: 40px;
-}
-.social-links{
-    display: flex;
-    flex-direction: column;
-}
-.social-links a{
-    width:40px;
-    height: 40px;
-    background-color: #FFB358;
-    color: #2E2D2D;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    box-shadow:0 0 20px 10px rgb(0,0,0,0.05);
-    margin:10px 0 ;
-    position:relative;
-    overflow:hidden ;
-    transition: transform 0.5s;
-}
-.social-links a .fab{
-    font-size:22px ;
-    line-height: 40px;
-    position: relative;
-    z-index: 10;
-    transition: color 0.5s;
-}
-.social-links a::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    top:0;
-    left: -50px;
-    background: linear-gradient(-45deg, #ed1c94,#ffec17);
-    position:absolute;
-    transition: 0.5s;
-}
-.social-links a:hover::after{
-    left: 0;
-}
-.social-links a:hover .fab{
-    color: aliceblue;
-}
-.social-links a:hover{
-    transform: translateY(-10px);
+.social-media {
+  display: flex;
+  flex-direction: column;
 }
 
-
-
-
-
-
-
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+.social-links a {
+  width: 25px;
+  height: 25px;
+  background-color: #ffb358;
+  color: #2e2d2d;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 0 20px 10px rgb(0, 0, 0, 0.05);
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+.social-links a .fab {
+  font-size: 15px;
+  line-height: 20px;
+  position: relative;
+  z-index: 10;
+  transition: color 0.5s;
+}
+.social-links a::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -50px;
+  background: linear-gradient(-45deg, #ed1c94, #ffec17);
+  position: absolute;
+  transition: 0.5s;
+}
+.social-links a:hover::after {
+  left: 0;
+}
+.social-links a:hover .fab {
+  color: aliceblue;
+}
+.social-links a:hover {
+  transform: translateY(-10px);
+}
+.foot span a {
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
