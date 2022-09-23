@@ -59,7 +59,7 @@
                             <span id="btnClose" class="btnClose">&times;</span>
                             <h3 class="pt-4">My wish List</h3>
                             <p class="py-2">Log in to manage your lists</p>
-                            <button class="col-5 mb-4 p-3 login">Login</button><br>
+                            <button class="col-5 mb-4 p-3 login"><a href="./formulaire/index.php" style="text-decoration:none; color:black">Login</a> </button><br>
                             <button class="create col-5 p-3">Create an account</button>
                         </div>
                     </div>

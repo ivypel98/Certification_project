@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Studio Feixen Sans Trial', sans-serif;
+    src: url('./fonts/StudioFeixenSansTrial-Regular.otf');
+  
+    font-family: 'Fashionable';
+    src: url('./fonts/Fashionable.otf');
+  }
+  body {
+    font-family: 'Studio Feixen Sans Trial', sans-serif;
+    color: black;
+  }
+
+  .navbar-nav a {
+    font-size: 20px;
+    font-weight: 500px;
+  }
+
+.wrapper{ 
+    width: 380px; 
+    padding: 20px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+ }
+.valider {
+    background-color: #FFB358;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

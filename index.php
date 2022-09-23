@@ -57,7 +57,7 @@
           </div>
           </div>
           <div class="row mx-auto">
-            <button class="btn now col-2 ms-auto shop"><a href="#">Shop now</a></button>
+            <button class="btn now col-2 ms-auto shop"><a href="./user/login.php">Shop now</a></button>
           </div>
         </div>
       </div>

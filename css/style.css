@@ -10,22 +10,6 @@ body {
   color: black;
 }
 /* Navbar */
-.nav-item a {
-  font-size: 3rem;
-  position: relative;
-}
-
-.nav-item a::after {
-  position: absolute;
-  content: '';
-  width: 0%;
-  height: 4px;
-  background-color: #ffb358;
-  left: 50%;
-  bottom: -10px;
-  transition: all 0.4s ease-in-out;
-}
-
 .container:hover .nav-item a::after {
   width: 100%;
   left: 0;
