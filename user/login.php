@@ -100,6 +100,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <?php
       require './navbar_revisite/navbar.php';
     ?>
+<div class="container d-flex justify-content-center" style="margin-top:200px">
     <div class="wrapper text-center ">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
@@ -113,19 +114,25 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group">
                 <!-- <label>Username</label> -->
-                <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>" placeholder="Name*" autocomplete="off">
+                <hr>
                 <span class="invalid-feedback"><?php echo $username_err; ?></span>
             </div>    
             <div class="form-group">
                 <!-- <label>Password</label> -->
-                <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
+                <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>"  placeholder="Password*" autocomplete="off">
+                <hr>
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
             <div class="form-group">
-                <input type="submit" class="btn m-2 p-2 valider" value="Login">
+                <input type="submit" class="btn my-4 p-2 valider" value="Login">
             </div>
-            <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+            <p >Don't have an account? <a href="register.php">Sign up now</a>.</p>
         </form>
-    </div>
+    </div> 
+</div>
+    <?php
+      require './navbar_revisite/footer.php';
+    ?>
 </body>
 </html>

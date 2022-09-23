@@ -16,13 +16,21 @@
   }
 
 .wrapper{ 
-    width: 380px; 
+    width: 450px;
+    height: 450px;
     padding: 20px;
     background-color: #F1F1F1;
-    border-radius: 10px;
+    border-radius: 20px;
  }
 .valider {
     background-color: #FFB358;
-    border-radius: 5px;
+    border-radius: 10px;
     text-transform: uppercase;
+    width: 150px;
+    padding:10px;
+}
+.form-control{
+  background-color: #F1F1F1;
+  border-style: none;
+  
 }
