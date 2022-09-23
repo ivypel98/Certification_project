@@ -12,8 +12,8 @@
     <!-- Swipper CSS -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <!-- CSS -->
-    <link href="./CSS/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./CSS/style2.css">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style2.css">
    <!-- title -->
     <title>Noelie Mode E-Shop</title>
   </head>
