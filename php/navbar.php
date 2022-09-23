@@ -9,7 +9,7 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a class="nav-link" href="dress.php">Shop</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="https://wa.me/+22892951868" target="_blank">Contact</a>

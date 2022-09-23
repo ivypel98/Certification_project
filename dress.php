@@ -37,7 +37,7 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active" href=""><span class="display-6">Dress </span></a>
+            <a class="nav-link active" href=""><span class="display-6">Dress</span></a>
           </li>
           <li class="nav-item ">
             <a class="nav-link " href="bags.php"><span class="display-6">Bags</span></a>
