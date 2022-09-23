@@ -1,7 +1,7 @@
 <?php
 // demarrage de la session
     session_start();
-    if(isset($_POST['bouton-valider'])){
+    if(isset($_POST['boutton-valider'])){
 // Verification des infos du formulaire
 
 if(isset($_POST['email']) && isset($_POST['mdp'])){
@@ -13,15 +13,15 @@ if(isset($_POST['email']) && isset($_POST['mdp'])){
     $nom_serveur = "localhost";
     $utilisateur = "root";
     $mot_de_passe = "";
-    $nom_base_données = "Certif";
+    $nom_base_données = "form_con";
     $con = mysqli_connect($nom_serveur, $utilisateur, $mot_de_passe, $nom_base_données);
 
 // // requete pour selectionner pour l'utilisateur ayant un email et un mot de passe
 // // les identifiants ayant été entrés
-    $req = mysqli_query($con, "SELECT * FROM userdb WHERE email = '$email' AND mdp = '$mdp' ");
+    $req = mysqli_query($con, "SELECT * FROM utilisateurs WHERE email = '$email' AND mdp = '$mdp' ");
     $num_ligne = mysqli_num_rows($req);
     if($num_ligne > 0) {
-        header("Location : bienvenu.php");
+        header("Location : bienvenu.php ");
         // creation de la variable de type session
         $_SESSION ['email'] = $email ;
     }else {
@@ -52,9 +52,9 @@ if(isset($_POST['email']) && isset($_POST['mdp'])){
         <form action="" method="POST">
             <input type="text" name="email" placeholder="Enter your E-mail" required>
             <hr>
-            <input type="passeword" name="mdp" placeholder="Passeword"required>
+            <input type="password" name="mdp" placeholder="Password"required>
             <hr>
-            <input type="submit" value="CONNEXION" name="bouton-valider">
+            <input type="submit" value="CONNEXION" name="boutton-valider">
         </form>
     </section>
 </body>
