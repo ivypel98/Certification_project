@@ -16,6 +16,6 @@
             </li>
           </ul>
         </div>
-        <button type="button" class="btn btn-navbar">Login</button>
+        <button type="button" class="btn btn-navbar"> <a href="../user/login.php">Login</a></button>
       </div>
     </nav>
