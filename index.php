@@ -20,7 +20,7 @@
 
   <body>
     <?php
-      require './php/navbar.php'
+      require './php/navbar.php';
     ?>
     <!-- section 1 Accueil -->
     <section>

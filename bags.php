@@ -17,8 +17,8 @@
     crossorigin="anonymous"></script>
     <!-- CSS -->
     <link href="./css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./CSS/style2.css">
-    <title>Shop</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>Bags</title>
   </head>
   <body>
      <!-- Debut Navbar -->
