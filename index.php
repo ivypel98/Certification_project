@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link href="./css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/f3a211bc0c.js" crossorigin="anonymous"></script>
     <!-- Swipper CSS -->
