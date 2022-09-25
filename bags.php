@@ -49,8 +49,18 @@
             <div class="row">
               <div class="col-12 col-md-12 col-lg-4 mb-4 image">
                 <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
+                  <button class="fas fa-heart" id="btnPopup"></button> 
+                </div>
+                <div id="overlay" class="overlay ">
+                    <div class="carte text-center">
+                        <div id="popup" class="popup text-center">
+                            <span id="btnClose" class="btnClose">&times;</span>
+                            <h3 class="pt-4">My wish List</h3>
+                            <p class="py-2">Log in to manage your lists</p>
+                            <button class="col-5 mb-4 p-3 login"><a href="./user/login.php" style="text-decoration:none; color:black">Login</a> </button><br>
+                            <button class="create col-5 p-3"><a href="./user/register.php">Create an account</a></button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card text-light text-center ">
                     <div class="card-body">
@@ -63,8 +73,18 @@
   
               <div class="col-12 col-md-12 col-lg-4 mb-4 image">
                 <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
+                  <button class="fas fa-heart" id="btnPopup"></button> 
+                </div>
+                <div id="overlay" class="overlay ">
+                    <div class="carte text-center">
+                        <div id="popup" class="popup text-center">
+                            <span id="btnClose" class="btnClose">&times;</span>
+                            <h3 class="pt-4">My wish List</h3>
+                            <p class="py-2">Log in to manage your lists</p>
+                            <button class="col-5 mb-4 p-3 login"><a href="./user/login.php" style="text-decoration:none; color:black">Login</a> </button><br>
+                            <button class="create col-5 p-3"><a href="./user/register.php">Create an account</a></button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card text-light text-center">
                     <div class="card-body">
@@ -77,8 +97,18 @@
   
               <div class="col-12 col-md-12 col-lg-4 mb-4 image">
                 <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
+                  <button class="fas fa-heart" id="btnPopup"></button> 
+                </div>
+                <div id="overlay" class="overlay ">
+                    <div class="carte text-center">
+                        <div id="popup" class="popup text-center">
+                            <span id="btnClose" class="btnClose">&times;</span>
+                            <h3 class="pt-4">My wish List</h3>
+                            <p class="py-2">Log in to manage your lists</p>
+                            <button class="col-5 mb-4 p-3 login"><a href="./user/login.php" style="text-decoration:none; color:black">Login</a> </button><br>
+                            <button class="create col-5 p-3"><a href="./user/register.php">Create an account</a></button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card text-light text-center ">
                     <div class="card-body">
@@ -92,9 +122,19 @@
 
             <div class="row">
               <div class="col-12 col-md-12 col-lg-4 mb-4 image">
-                <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
+              <div class="multi-button">
+                  <button class="fas fa-heart" id="btnPopup"></button> 
+                </div>
+                <div id="overlay" class="overlay ">
+                    <div class="carte text-center">
+                        <div id="popup" class="popup text-center">
+                            <span id="btnClose" class="btnClose">&times;</span>
+                            <h3 class="pt-4">My wish List</h3>
+                            <p class="py-2">Log in to manage your lists</p>
+                            <button class="col-5 mb-4 p-3 login"><a href="./user/login.php" style="text-decoration:none; color:black">Login</a> </button><br>
+                            <button class="create col-5 p-3"><a href="./user/register.php">Create an account</a></button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card text-light text-center ">
                     <div class="card-body">
@@ -106,9 +146,19 @@
               </div>
   
               <div class="col-12 col-md-12 col-lg-4 mb-4 image">
-                <div class="multi-button">
-                  <!--Don't need to say how many buttons there will be, handled on lines 42-93-->
-                <button class="fas fa-heart"></button>
+              <div class="multi-button">
+                  <button class="fas fa-heart" id="btnPopup"></button> 
+                </div>
+                <div id="overlay" class="overlay ">
+                    <div class="carte text-center">
+                        <div id="popup" class="popup text-center">
+                            <span id="btnClose" class="btnClose">&times;</span>
+                            <h3 class="pt-4">My wish List</h3>
+                            <p class="py-2">Log in to manage your lists</p>
+                            <button class="col-5 mb-4 p-3 login"><a href="./user/login.php" style="text-decoration:none; color:black">Login</a> </button><br>
+                            <button class="create col-5 p-3"><a href="./user/register.php">Create an account</a></button>
+                        </div>
+                    </div>
                 </div>
                 <div class="card text-light text-center">
                     <div class="card-body">

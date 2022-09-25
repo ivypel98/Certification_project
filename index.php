@@ -157,8 +157,15 @@
                       <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                     </div>
                   </div>
+                  <div class="overlay-text">
+                    
+                    <h2>Jane Doe</h2>
+                    <p>Ideal for convention and koinonia</p>
+                    <button>See details</button>
+                    <button>Shop now</button>
+                  </div>
               </div>
-            </div>
+          </div>
 
             <div class="col-12 col-md-12 col-lg-4 mb-4">
               <div class="card text-center">
