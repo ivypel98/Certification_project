@@ -5,11 +5,14 @@
   font-family: 'Fashionable';
   src: url('./fonts/Fashionable.otf');
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Studio Feixen Sans Trial', sans-serif;
   color: black;
 }
-/* Navbar */ 
+/* Navbar */
 .nav-item a {
   font-size: 3rem;
   position: relative;
@@ -54,37 +57,37 @@ body {
 
 /* coeur popup */
 
-.overlay{
+.overlay {
   position: fixed;
-  left:0px ;
+  left: 0px;
   top: 0px;
   background-color: rgba(0, 0, 0, 0.6);
-  width:100%;
+  width: 100%;
   height: 100%;
   display: none;
   z-index: 1000;
 }
-.carte{
-  width:600px;
-  height:400px;
-  background-color:#F1F1F1 ;
+.carte {
+  width: 600px;
+  height: 400px;
+  background-color: #f1f1f1;
   border-radius: 15px;
   transform: translate(30%, 50%);
 }
-.login{
-  background-color: #FFB358;
+.login {
+  background-color: #ffb358;
   border-radius: 50px;
   border-style: none;
 }
-.create{
+.create {
   background-color: transparent;
   border-radius: 50px;
-  border-style:none;
-  border:solid 2px;
+  border-style: none;
+  border: solid 2px;
 }
-.btnClose{
+.btnClose {
   cursor: pointer;
-  color: #FFB358;
+  color: #ffb358;
   margin-left: 500px;
 }
 /* fin popup */

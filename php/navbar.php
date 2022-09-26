@@ -4,9 +4,9 @@
           >Noelie Mode creation</a
         >
         <div class="navbar-text">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2">
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="./index.php">Home</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="dress.php">Shop</a>

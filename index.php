@@ -15,6 +15,9 @@
     <!-- CSS -->
     <link href="./css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style2.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
    <!-- title -->
     <title>Noelie Mode E-Shop</title>
   </head>
@@ -150,71 +153,83 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-12 col-md-12 col-lg-4 mb-4">
-              <div class="card text-center">
-                  <div class="card-body">
-                    <div class="img-area">
+            <div class="col-lg-4 mb-4 dcc ">
+              <div class="card text-center chile" style="width:21rem">
+                    <div class="img">
                       <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                     </div>
-                  </div>
-                  <div class="overlay-text">
-                    
+                    <div class="info-image">
                     <h2>Jane Doe</h2>
                     <p>Ideal for convention and koinonia</p>
-                    <button>See details</button>
-                    <button>Shop now</button>
-                  </div>
-              </div>
-          </div>
-
-            <div class="col-12 col-md-12 col-lg-4 mb-4">
-              <div class="card text-center">
-                  <div class="card-body">
-                    <div class="img-area">
-                      <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
-                    </div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-12 col-lg-4 mb-4">
-              <div class="card text-light text-center">
-                  <div class="card-body">
-                    <div class="img-area">
+            <div class="col-lg-4 mb-4">
+              <div class="card text-center chile" style="width:21rem">
+                    <div class="img">
+                      <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info-image ">
+                    <h2>Jane Doe</h2>
+                    <p>Ideal for convention and koinonia</p>
+                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+              <div class="card text-dark text-center chile"style="width:21rem">
+                    <div class="img">
                       <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                     </div>
+                    <div class="info-image text-dark">
+                    <h2>Jane Doe</h2>
+                    <p>Ideal for convention and koinonia</p>
+                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-12 col-md-12 col-lg-4 mb-4">
-              <div class="card text-light text-center">
-                  <div class="card-body">
-                    <div class="img-area">
+            <div class="col-lg-4 mb-4">
+              <div class="card text-dark text-center chile"style="width:21rem">
+                    <div class="img">
                       <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                     </div>
+                    <div class="info-image text-dark">
+                    <h2>Jane Doe</h2>
+                    <p>Ideal for convention and koinonia</p>
+                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-12 col-lg-4 mb-4">
-              <div class="card text-light text-center">
-                  <div class="card-body">
-                    <div class="img-area">
+            <div class="col-lg-4 mb-4">
+              <div class="card text-dark text-center chile"style="width:21rem" >
+                    <div class="img">
                       <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                     </div>
+                    <div class="info-image ">
+                    <h2>Jane Doe</h2>
+                    <p>Ideal for convention and koinonia</p>
+                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
+                    
               </div>
             </div>
 
-            <div class="col-12 col-md-12 col-lg-4 mb-4">
-              <div class="card text-light text-center">
-                  <div class="card-body">
-                    <div class="img-area">
+            <div class="col-lg-4 mb-4">
+              <div class="card text-dark text-center chile" style="width:21rem">
+                    <div class="img">
                       <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                     </div>
+                    <div class="info-image text-dark">
+                    <h2>Jane Doe</h2>
+                    <p>Ideal for convention and koinonia</p>
+                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
@@ -509,10 +524,30 @@
 <!-- section footer-->
   <?php
   require './php/footer.php'?>
-  
+
+    <!-- <script>
+      $(document).ready(function(){
+        $('col-lg-4').hover(
+          //trigger when mouse hover
+          function(){
+            $(this).animate({
+                marginTop: "-=1%",
+
+          },200);
+          },
+          //trigger when mouse out
+          function(){
+            $(this).animate({
+              marginTop:"0%",
+            },200);
+          }
+        );
+      });
+
+    </script> -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Swipper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>    Swipper JS -->
     <script src="js/swiper-bundle.min.js"></script>
     <!-- Javascript -->
     <script src="js/car.js"></script>

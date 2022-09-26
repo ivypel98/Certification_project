@@ -1,4 +1,4 @@
-<style></style>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="../index.php" style="color: #ffb358 ; font-family: 'Fashionable';

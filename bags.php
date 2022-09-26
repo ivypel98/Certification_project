@@ -26,8 +26,10 @@
         require './php/navbar.php'
       ?>
     <!-- Debut Navbar -->
-    
-    <div class="card text-center"><h1>Shop</h2></div>
+    <div class="card text-center">
+      <div class="row text-center shop-card">
+          <img src="./image/FRDAYS.gif" alt="">
+        </div>
     <div class="card text-center bags">
       <div class="card-header">
         <ul class="nav nav-tabs card-header-tabs">
@@ -363,6 +365,7 @@
           <div class="row justify-content-center mb-4 pb-3">
             <a class="btn see-more col-2">Load more bags</a>
           </div>
+
           <script>
             $(document).ready(function(){
               $(".image").slice(0,9).fadeIn();

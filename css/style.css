@@ -5,6 +5,9 @@
   font-family: 'Fashionable';
   src: url('./fonts/Fashionable.otf');
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Studio Feixen Sans Trial', sans-serif;
   color: black;
@@ -45,7 +48,7 @@ body {
 }
 
 .elegance {
-  font-size: 12vw;
+  font-size: 10vw;
   color: #2e2d2d;
   /* font-weight: bold; */
 }
@@ -122,9 +125,47 @@ a {
 }
 
 /* Find you fits  */
-.fits .card {
+/*.fits .chile {
   box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.1);
+} */
+.fits .chile:hover {
+  -webkit-box-shadow: -1px 9px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 9px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 9px 40px rgba(0, 0, 0, 0.2);
 }
+.info-image .see {
+  background-color: #ffb358;
+}
+.chile:hover {
+  transform: translateY(10px);
+}
+
+.chile {
+  position: relative;
+  cursor: pointer;
+}
+.chile:before {
+  content: '';
+  position: absolute;
+  top: 10;
+  left: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.chile:hover:before {
+  opacity: 1;
+}
+/* .chile .info-image {
+  position: relative;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all; */
+/* }
+.chile:hover .info-image {
+  opacity: 1;
+  transform: translateY(-20px);
+} */
 
 /* shop from everywhere */
 .proof-items .proof-quality,

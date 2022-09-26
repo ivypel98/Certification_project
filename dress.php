@@ -17,6 +17,7 @@
     crossorigin="anonymous"></script>
     <!-- CSS -->
     <link href="./css/style2.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
     <title>Dress</title>
   </head>
   <body>
@@ -27,9 +28,10 @@
     <!-- Debut Navbar -->
 
     <div class="card text-center dress">
-        <div class="card text-center shop-card"><h1>Dress</h2></div>
+        <div class="row text-center shop-card">
+              <img src="./image/FRDAYS.gif" alt="">
+        </div>
       <div class="card-header">
-        
         <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
             <a class="nav-link" href="index.php">
@@ -51,7 +53,7 @@
               <div class="container col-12 col-md-12 col-lg-4 mb-4 image">
                 <!-- debut popup -->
                 <div class="multi-button">
-                  <button class="fas fa-heart" id="btnPopup"></button> 
+                  <button class="fas fa-heart"></button> 
                 </div>
                 <div id="overlay" class="overlay ">
                     <div class="carte text-center">
@@ -60,7 +62,7 @@
                             <h3 class="pt-4">My wish List</h3>
                             <p class="py-2">Log in to manage your lists</p>
                             <button class="col-5 mb-4 p-3 login"><a href="./user/login.php" style="text-decoration:none; color:black">Login</a> </button><br>
-                            <button class="create col-5 p-3"><a href="./user/register.php">Create an account</a></button>
+                            <button class="create col-5 p-3"><a href="./user/register.php" style="text-decoration:none; color:black">Create an account</a></button>
                         </div>
                     </div>
                 </div>
@@ -71,11 +73,15 @@
                         <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>   
                 </div>
               </div>
   
-              <div class="col-12 col-md-12 col-lg-4 mb-4 image">
-                  <!-- debut popup -->
+              <div class="container col-12 col-md-12 col-lg-4 mb-4 image">
+                <!-- debut popup -->
                 <div class="multi-button">
                   <button class="fas fa-heart" id="btnPopup"></button> 
                 </div>
@@ -86,20 +92,23 @@
                             <h3 class="pt-4">My wish List</h3>
                             <p class="py-2">Log in to manage your lists</p>
                             <button class="col-5 mb-4 p-3 login"><a href="./user/login.php" style="text-decoration:none; color:black">Login</a> </button><br>
-                            <button class="create col-5 p-3"><a href="./user/register.php">Create an account</a></button>
+                            <button class="create col-5 p-3"><a href="./user/register.php" style="text-decoration:none; color:black">Create an account</a></button>
                         </div>
                     </div>
                 </div>
                 <!-- fin popup -->
-                <div class="card text-light text-center">
+                <div class="card text-light text-center ">
                     <div class="card-body">
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
-  
               <div class="col-12 col-md-12 col-lg-4 mb-4 image">
                   <!-- debut popup -->
                   <div class="multi-button">
@@ -122,6 +131,10 @@
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                       </div>
+                    </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
                     </div>
                 </div>
               </div>
@@ -151,6 +164,10 @@
                         <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
   
@@ -177,6 +194,10 @@
                         <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
   
@@ -202,6 +223,10 @@
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                       </div>
+                    </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
                     </div>
                 </div>
               </div>
@@ -231,6 +256,10 @@
                         <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
   
@@ -257,6 +286,10 @@
                         <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
   
@@ -282,6 +315,10 @@
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
+                    </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
                     </div>
                 </div>
               </div>
@@ -311,6 +348,10 @@
                         <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
   
@@ -337,6 +378,10 @@
                         <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
   
@@ -362,6 +407,10 @@
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
+                    </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
                     </div>
                 </div>
               </div>
@@ -391,6 +440,10 @@
                         <img src="./image/dresses/FendiFW223.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
   
@@ -416,6 +469,10 @@
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
+                    </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
                     </div>
                 </div>
               </div>
@@ -443,6 +500,10 @@
                         <img src="./image/dresses/FendiFW2212.png" alt="" class="img-fluid">
                       </div>
                     </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
+                    </div>
                 </div>
               </div>
             </div>
@@ -470,6 +531,10 @@
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
+                    </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
                     </div>
                 </div>
               </div>
@@ -522,6 +587,10 @@
                       <div class="img-area">
                         <img src="./image/dresses/FendiFW224.png" alt="" class="img-fluid">
                       </div>
+                    </div>
+                    <div>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >See details</a>
+                    <a href="https://wa.me/+22892951868" class="btn see mx-4 mt-2 mb-4" style="background-color:#ffb358" >Shop now</a>
                     </div>
                 </div>
               </div>
