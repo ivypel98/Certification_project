@@ -174,7 +174,7 @@
                     <div class="info-image ">
                     <h2>Jane Doe</h2>
                     <p>Ideal for convention and koinonia</p>
-                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
@@ -187,7 +187,7 @@
                     <div class="info-image text-dark">
                     <h2>Jane Doe</h2>
                     <p>Ideal for convention and koinonia</p>
-                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
@@ -202,7 +202,7 @@
                     <div class="info-image text-dark">
                     <h2>Jane Doe</h2>
                     <p>Ideal for convention and koinonia</p>
-                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
@@ -215,7 +215,7 @@
                     <div class="info-image ">
                     <h2>Jane Doe</h2>
                     <p>Ideal for convention and koinonia</p>
-                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
                     
               </div>
@@ -229,7 +229,7 @@
                     <div class="info-image text-dark">
                     <h2>Jane Doe</h2>
                     <p>Ideal for convention and koinonia</p>
-                    <a href="" class="btn see mx-4 mt-2 mb-4" >See details</a>
+                    <a href="./detail.php" class="btn see mx-4 mt-2 mb-4" >See details</a>
                   </div>
               </div>
             </div>
