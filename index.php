@@ -338,7 +338,7 @@
   </section>
 
 <!-- section avis -->
-    <div class="testimony container">
+    <div class="testimony ">
       <div class="slide-container swiper">
         <div class="slide-content">
           <div class="card-wrapper swiper-wrapper">
