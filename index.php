@@ -154,7 +154,7 @@
           <?php
             include('blog.php');
           ?>
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-lg-4 mb-4 dcc ">
               <div class="card text-center chile" style="width:21rem">
                     <div class="img">
@@ -195,7 +195,7 @@
             </div>
           </div>
 
-          <!-- <div class="row">
+          <div class="row">
             <div class="col-lg-4 mb-4">
               <div class="card text-dark text-center chile"style="width:21rem">
                     <div class="img">
